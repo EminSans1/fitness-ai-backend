@@ -1,1 +1,2 @@
 # fitness-ai-backend
+FitAnalytics API is a high-performance backend service built with FastAPI, designed to process and validate fitness data with precision. It provides structured endpoints for tracking athletic metrics, enforcing strict data validation to ensure analytical accuracy. Planned integration of a Retrieval-Augmented Generation (RAG) pipeline will enable context-aware, personalized training recommendations grounded in evidence-based sports science.

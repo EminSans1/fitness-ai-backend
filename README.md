@@ -1,18 +1,19 @@
-# fitness-ai-backend
+# FitAnalytics API
 
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688.svg)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-FitAnalytics API — backend service for fitness data processing built with FastAPI.
+REST API for fitness data processing — calorie estimation, heart rate zone calculation, and basal metabolic rate analysis built with FastAPI.
 
 ## Features
 
 - **Calories Calculator** — estimate calories burned based on weight, duration, and intensity
-- **Heart Rate Zones** — calculate max HR and target training zones
-- **BMR Calculator** — basal metabolic rate using Mifflin-St Jeor equation
-- **Pydantic Validation** — strict request/response schemas
-- **Auto-docs** — interactive API docs at `/docs`
+- **Heart Rate Zones** — calculate max HR and target training zones using age and resting HR
+- **BMR Calculator** — basal metabolic rate via Mifflin-St Jeor equation
+- **Pydantic Validation** — strict request/response schemas with field-level constraints
+- **Auto-docs** — interactive Swagger UI at `/docs` and ReDoc at `/redoc`
+- **Health Check** — GET `/health` endpoint for uptime monitoring
 
 ## Installation
 
